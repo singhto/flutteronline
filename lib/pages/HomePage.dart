@@ -79,7 +79,7 @@ class _HomePageState extends State<HomePage> {
                     flex: 1,
                     child: Center(
                         child: Text(
-                            'ยินดีต้อนรับคุณ ${profileState.profile['name']}')),
+                            'ยินดีต้อนรับ ${profileState.profile['name']}')),
                   );
                 },
               ),
